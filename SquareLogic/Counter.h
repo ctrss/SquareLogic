@@ -1,4 +1,5 @@
 #pragma once
+
 #ifndef _SS_COUNTER_H_
 #define _SS_COUNTER_H_
 

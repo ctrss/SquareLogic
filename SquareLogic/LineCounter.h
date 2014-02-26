@@ -1,4 +1,5 @@
 #pragma once
+
 #ifndef _SS_LINECOUNTER_H_
 #define _SS_LINECOUNTER_H_
 

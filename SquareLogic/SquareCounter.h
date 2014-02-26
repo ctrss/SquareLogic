@@ -1,4 +1,5 @@
 #pragma once
+
 #ifndef _SS_SQUARECOUNTER_H_
 #define _SS_SQUARECOUNTER_H_
 

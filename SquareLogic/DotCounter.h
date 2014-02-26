@@ -1,4 +1,5 @@
 #pragma once
+
 #ifndef _SS_DOTCOUNTER_H_
 #define _SS_DOTCOUNTER_H_
 

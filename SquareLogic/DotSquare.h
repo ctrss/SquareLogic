@@ -1,4 +1,5 @@
 #pragma once
+
 #ifndef _SS_DOTSQUARE_H_
 #define _SS_DOTSQUARE_H_
 

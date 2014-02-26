@@ -1,4 +1,5 @@
 #pragma once
+
 #ifndef _SS_LINESQUARE_H_
 #define _SS_LINESQUARE_H_
 
