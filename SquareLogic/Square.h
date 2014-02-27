@@ -18,6 +18,7 @@ public:
 
 	virtual void Fill(SQUARE_COLOR clr) = 0;
 	virtual bool IsSolved(void) = 0;
+	virtual bool Check(SQUARE_COLOR clr) = 0;
 };
 
 #endif // _SS_SQUARE_H_
