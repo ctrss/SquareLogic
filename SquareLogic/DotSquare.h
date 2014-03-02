@@ -10,6 +10,14 @@ class DotSquare :
 public:
 	DotSquare();
 	~DotSquare();
+
+	virtual void Fill(SQUARE_COLOR clr) override;
+	virtual bool IsSolved(void) override;
+	virtual bool Check(SQUARE_COLOR clr) override;
+
+private:
+	SQUARE_COLOR m_color;
+	bool m_isSolved;
 };
 
 #endif // _SS_DOTSQUARE_H_

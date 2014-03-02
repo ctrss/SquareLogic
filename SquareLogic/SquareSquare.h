@@ -18,7 +18,9 @@ public:
 	virtual bool Check(SQUARE_COLOR clr) override;
 
 private:
-	std::vector<std::vector<Square*>> m_dots;
+	std::vector<Square*> m_dots;
+	unsigned int m_width;
+	unsigned int m_height;
 };
 
 #endif // _SS_SQUARESQUARE_H_

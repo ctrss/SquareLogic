@@ -15,7 +15,9 @@
     <ClInclude Include="DotCounter.h" />
     <ClInclude Include="DotSquare.h" />
     <ClInclude Include="Factory.h" />
+    <ClInclude Include="FileManager.h" />
     <ClInclude Include="GameFactory.h" />
+    <ClInclude Include="IDataManager.h" />
     <ClInclude Include="IGame.h" />
     <ClInclude Include="LineCounter.h" />
     <ClInclude Include="LineSquare.h" />
@@ -30,7 +32,9 @@
     <ClCompile Include="DotCounter.cpp" />
     <ClCompile Include="DotSquare.cpp" />
     <ClCompile Include="Factory.cpp" />
+    <ClCompile Include="FileManager.cpp" />
     <ClCompile Include="GameFactory.cpp" />
+    <ClCompile Include="IDataManager.cpp" />
     <ClCompile Include="IGame.cpp" />
     <ClCompile Include="LineCounter.cpp" />
     <ClCompile Include="LineSquare.cpp" />

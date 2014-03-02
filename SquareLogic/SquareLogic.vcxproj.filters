@@ -54,6 +54,12 @@
     <ClInclude Include="Factory.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
+    <ClInclude Include="IDataManager.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="FileManager.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="IGame.cpp">
@@ -96,6 +102,12 @@
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="Factory.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="IDataManager.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="FileManager.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

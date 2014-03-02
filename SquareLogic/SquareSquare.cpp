@@ -2,6 +2,7 @@
 
 
 SquareSquare::SquareSquare()
+: Square(), m_width(0), m_height(0)
 {
 }
 
@@ -12,19 +13,32 @@ SquareSquare::~SquareSquare()
 
 void SquareSquare::Fill(SQUARE_COLOR clr)
 {
-	for (auto& dots : m_dots)
+	for (auto& dot : m_dots)
 	{
-		for (auto& dot : dots)
-		{
-			dot->Fill(clr);
-		}
+		dot->Fill(clr);
 	}
 }
 
 bool SquareSquare::IsSolved(void)
 {
+	bool solved = true;
+
+	for (auto& dot : m_dots)
+	{
+		if (!dot->IsSolved()) solved = false;
+	}
+
+	return solved;
 }
 
 bool SquareSquare::Check(SQUARE_COLOR clr)
 {
+	bool checked = true;
+
+	for (auto& dot : m_dots)
+	{
+		if (!dot->Check(clr)) checked = false;
+	}
+
+	return checked;
 }
