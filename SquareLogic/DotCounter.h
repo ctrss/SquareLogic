@@ -10,6 +10,12 @@ class DotCounter :
 public:
 	DotCounter();
 	~DotCounter();
+
+	virtual bool IsSolved(void) override;
+
+private:
+	int m_cnt;
+	bool m_isSolved;
 };
 
 #endif // _SS_DOTCOUNTER_H_

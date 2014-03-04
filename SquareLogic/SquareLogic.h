@@ -11,7 +11,7 @@ public:
 	SquareLogic();
 	~SquareLogic();
 
-	void LoadAnswerSquareSquare(void);
+	void LoadAnswerSquare(void);
 
 private:
 	SquareSquare* m_sqSquare;

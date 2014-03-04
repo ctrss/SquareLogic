@@ -1,6 +1,7 @@
 #include "SquareLogicGame.h"
 
 #include "SquareLogic.h"
+#include "FileManager.h"
 
 namespace Game
 {
@@ -16,8 +17,9 @@ namespace Game
 
 	void SquareLogicGame::InitGame(void)
 	{
+		InitClasses();
 		m_sqLogic = new SquareLogic();
-		m_sqLogic->LoadAnswerSquareSquare();
+		m_sqLogic->LoadAnswerSquare();
 		m_sqLogic->InitSquareCounter();
 
 		m_sqLogicView = new SquareLogicView();
@@ -88,6 +90,11 @@ namespace Game
 	{
 		delete m_sqLogic;
 		delete m_sqLogicView;
+	}
+
+	void SquareLogicGame::InitClasses(void)
+	{
+		_dataMgr = new FileManager();
 	}
 
 } // namespace Game

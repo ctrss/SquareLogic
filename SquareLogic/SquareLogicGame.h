@@ -5,6 +5,8 @@
 
 #include "IGame.h"
 
+class IDataManager;
+
 class SquareLogic;
 
 namespace Game
@@ -23,6 +25,10 @@ namespace Game
 		virtual void StopGame(void) override;
 		virtual void ResumeGame(void) override;
 		virtual void ExitGame(void) override;
+
+		void InitClasses(void);
+
+		static IDataManager* _dataMgr;
 
 	private:
 		SquareLogic* m_sqLogic;
