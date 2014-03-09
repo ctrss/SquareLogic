@@ -14,6 +14,7 @@ public:
 	virtual void Fill(SQUARE_COLOR clr) override;
 	virtual bool IsSolved(void) override;
 	virtual bool Check(SQUARE_COLOR clr) override;
+	virtual SQUARE_TYPE GetType(void) override;
 
 private:
 	SQUARE_COLOR m_color;

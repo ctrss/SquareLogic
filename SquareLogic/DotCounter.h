@@ -12,6 +12,7 @@ public:
 	~DotCounter();
 
 	virtual bool IsSolved(void) override;
+	virtual CNT_TYPE GetType(void) override;
 
 private:
 	int m_cnt;

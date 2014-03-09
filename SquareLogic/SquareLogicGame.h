@@ -36,4 +36,6 @@ namespace Game
 
 } // namespace Game
 
+Game::SquareLogicGame* g_game;
+
 #endif // _SS_SQUARELOGICGAME_H_

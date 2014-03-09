@@ -41,3 +41,8 @@ bool LineSquare::Check(SQUARE_COLOR clr)
 
 	return checked;
 }
+
+Square::SQUARE_TYPE LineSquare::GetType(void)
+{
+	return SQT_LINE;
+}

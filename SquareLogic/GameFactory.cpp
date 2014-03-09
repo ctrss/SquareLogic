@@ -11,7 +11,9 @@ GameFactory::~GameFactory()
 {
 }
 
-SquareLogicGame* GameFactory::CreateSquareLogicGame(void)
+Game::SquareLogicGame* GameFactory::CreateSquareLogicGame(void)
 {
-	return new SquareLogicGame();
+	Game::SquareLogicGame* slGame = new Game::SquareLogicGame();
+	g_game = slGame;
+	return slGame;
 }

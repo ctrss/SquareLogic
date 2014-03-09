@@ -42,3 +42,8 @@ bool SquareSquare::Check(SQUARE_COLOR clr)
 
 	return checked;
 }
+
+Square::SQUARE_TYPE SquareSquare::GetType(void)
+{
+	return SQT_SQUARE;
+}

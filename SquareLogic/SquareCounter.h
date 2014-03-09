@@ -14,6 +14,7 @@ public:
 	~SquareCounter();
 
 	virtual bool IsSolved(void) override;
+	virtual CNT_TYPE GetType(void) override;
 
 private:
 	std::vector<Counter*> m_cnts;

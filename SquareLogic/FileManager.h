@@ -10,7 +10,7 @@ public:
 	FileManager();
 	~FileManager();
 
-	virtual int LoadAnswerSquare(void) override;
+	virtual int LoadAnswerSquare(Square* sq) override;
 };
 
 #endif // _SS_FILEMANAGER_H_

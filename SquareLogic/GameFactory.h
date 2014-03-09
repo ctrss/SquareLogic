@@ -5,7 +5,10 @@
 
 #include "Factory.h"
 
-class SquareLogicGame;
+namespace Game
+{
+	class SquareLogicGame;
+}
 
 class GameFactory :
 	public Factory
@@ -14,7 +17,7 @@ public:
 	GameFactory();
 	~GameFactory();
 
-	virtual SquareLogicGame* CreateSquareLogicGame(void);
+	virtual Game::SquareLogicGame* CreateSquareLogicGame(void);
 };
 
 #endif // _SS_GAMEFACTORY_H_

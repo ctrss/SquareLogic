@@ -11,11 +11,14 @@ FileManager::~FileManager()
 {
 }
 
-int FileManager::LoadAnswerSquare(void)
+int FileManager::LoadAnswerSquare(Square* sq)
 {
 	std::ifstream inStrm = std::ifstream("answer.txt");
 
-	inStrm >> 
+	int width;
+	int height;
+	inStrm >> width;
+	inStrm >> height;
 	fgets(buf, 1024, ansFile);
 	std::string str(buf);
 	int width = atoi(str.substr(0, str.find_first_of(' ')).c_str());

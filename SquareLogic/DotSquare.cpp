@@ -25,3 +25,8 @@ bool DotSquare::Check(SQUARE_COLOR clr)
 	if (m_color == clr) return true;
 	else return false;
 }
+
+Square::SQUARE_TYPE DotSquare::GetType(void)
+{
+	return SQT_DOT;
+}
