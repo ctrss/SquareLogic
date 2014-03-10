@@ -2,6 +2,7 @@
 
 #ifndef _SS_SQUARE_H_
 #define _SS_SQUARE_H_
+#include "stdafx.h"
 
 class Square
 {
@@ -28,6 +29,8 @@ public:
 	virtual bool IsSolved(void) = 0;
 	virtual bool Check(SQUARE_COLOR clr) = 0;
 	virtual SQUARE_TYPE GetType(void);
+
+	virtual void SetAnswerSquare(SQUARE_COLOR clr) = 0;
 };
 
 #endif // _SS_SQUARE_H_

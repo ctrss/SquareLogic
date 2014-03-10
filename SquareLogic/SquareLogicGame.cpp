@@ -20,17 +20,17 @@ namespace Game
 		InitClasses();
 		m_sqLogic = new SquareLogic();
 		m_sqLogic->LoadAnswerSquare();
-		m_sqLogic->InitSquareCounter();
+/*		m_sqLogic->InitSquareCounter();
 
 		m_sqLogicView = new SquareLogicView();
-		m_sqLogicView->Refresh();
+		m_sqLogicView->Refresh();*/
 
-		Start();
+		StartGame();
 	}
 
 	void SquareLogicGame::StartGame(void)
 	{
-		while (!m_sqLogic->IsSolved())
+/*		while (!m_sqLogic->IsSolved())
 		{
 			if (UI->InputEvent())
 			{
@@ -67,29 +67,29 @@ namespace Game
 				Refresh();
 			}
 		}
-		m_sqLogicView->ShowResult();
+		m_sqLogicView->ShowResult();*/
 		Exit();
 	}
 
 	void SquareLogicGame::RefreshGame(void)
 	{
-		m_sqLogicView->Refresh();
+//		m_sqLogicView->Refresh();
 	}
 
 	void SquareLogicGame::StopGame(void)
 	{
-		UI->SetStop();
+//		UI->SetStop();
 	}
 
 	void SquareLogicGame::ResumeGame(void)
 	{
-		UI->SetResume();
+//		UI->SetResume();
 	}
 
 	void SquareLogicGame::ExitGame(void)
 	{
 		delete m_sqLogic;
-		delete m_sqLogicView;
+//		delete m_sqLogicView;
 	}
 
 	void SquareLogicGame::InitClasses(void)

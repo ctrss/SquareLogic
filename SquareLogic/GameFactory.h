@@ -2,9 +2,9 @@
 
 #ifndef _SS_GAMEFACTORY_H_
 #define _SS_GAMEFACTORY_H_
+#include "stdafx.h"
 
 #include "Factory.h"
-
 namespace Game
 {
 	class SquareLogicGame;

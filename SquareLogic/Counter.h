@@ -2,6 +2,7 @@
 
 #ifndef _SS_COUNTER_H_
 #define _SS_COUNTER_H_
+#include "stdafx.h"
 
 class Counter
 {

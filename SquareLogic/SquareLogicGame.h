@@ -2,6 +2,7 @@
 
 #ifndef _SS_SQUARELOGICGAME_H_
 #define _SS_SQUARELOGICGAME_H_
+#include "stdafx.h"
 
 #include "IGame.h"
 

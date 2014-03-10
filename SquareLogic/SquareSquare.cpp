@@ -47,3 +47,16 @@ Square::SQUARE_TYPE SquareSquare::GetType(void)
 {
 	return SQT_SQUARE;
 }
+
+void SquareSquare::InitSquareSize(int width, int height)
+{
+	m_width = width;
+	m_height = height;
+}
+
+//! x, y 는 0부터 시작
+void SquareSquare::SetAnswerSquare(int x, int y, SQUARE_COLOR clr)
+{
+	Square* dot = m_dots.at(x + y * m_width);
+	dot->SetAnswerSquare(clr);
+}

@@ -1,6 +1,7 @@
 #pragma once
 #ifndef _SS_FILEMANAGER_H_
 #define _SS_FILEMANAGER_H_
+#include "stdafx.h"
 
 #include "IDataManager.h"
 class FileManager :

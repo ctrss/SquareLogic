@@ -2,6 +2,7 @@
 
 #ifndef _SS_SQUARELOGIC_H_
 #define _SS_SQUARELOGIC_H_
+#include "stdafx.h"
 
 class SquareSquare;
 

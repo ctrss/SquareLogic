@@ -17,7 +17,8 @@ void DotSquare::Fill(SQUARE_COLOR clr)
 
 bool DotSquare::IsSolved(void)
 {
-	return m_isSolved;
+	if (m_color == m_ansColor) return true;
+	else return false;
 }
 
 bool DotSquare::Check(SQUARE_COLOR clr)
@@ -29,4 +30,9 @@ bool DotSquare::Check(SQUARE_COLOR clr)
 Square::SQUARE_TYPE DotSquare::GetType(void)
 {
 	return SQT_DOT;
+}
+
+void DotSquare::SetAnswerSquare(SQUARE_COLOR clr)
+{
+	m_ansColor = clr;
 }

@@ -1,8 +1,7 @@
 #include "SquareLogic.h"
 
-#include <filesystem>
-
-#include "SquareSquare.h"
+#include "SquareLogicGame.h"
+#include "IDataManager.h"
 
 SquareLogic::SquareLogic()
 {
@@ -15,5 +14,5 @@ SquareLogic::~SquareLogic()
 
 void SquareLogic::LoadAnswerSquare(void)
 {
-	// DataManager 사용으로 수정
+	g_game->_dataMgr->LoadAnswerSquare((Square*)m_sqSquare);
 }

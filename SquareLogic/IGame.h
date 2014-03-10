@@ -2,6 +2,7 @@
 
 #ifndef _SS_IGAME_H_
 #define _SS_IGAME_H_
+#include "stdafx.h"
 
 namespace Game
 {

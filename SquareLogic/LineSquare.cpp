@@ -46,3 +46,16 @@ Square::SQUARE_TYPE LineSquare::GetType(void)
 {
 	return SQT_LINE;
 }
+
+void LineSquare::SetAnswerSquare(SQUARE_COLOR clr)
+{
+	for (auto& dot : m_dots)
+	{
+		dot->SetAnswerSquare(clr);
+	}
+}
+
+void LineSquare::SetAnswerSquare(int len, SQUARE_COLOR clr)
+{
+	m_dots.at(len)->SetAnswerSquare(clr);
+}

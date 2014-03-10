@@ -1,6 +1,8 @@
 #pragma once
+
 #ifndef _SS_IDATAMANAGER_H_
 #define _SS_IDATAMANAGER_H_
+#include "stdafx.h"
 
 class Square;
 

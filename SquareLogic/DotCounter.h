@@ -2,6 +2,7 @@
 
 #ifndef _SS_DOTCOUNTER_H_
 #define _SS_DOTCOUNTER_H_
+#include "stdafx.h"
 
 #include "Counter.h"
 class DotCounter :

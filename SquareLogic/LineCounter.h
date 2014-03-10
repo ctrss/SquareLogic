@@ -2,9 +2,9 @@
 
 #ifndef _SS_LINECOUNTER_H_
 #define _SS_LINECOUNTER_H_
+#include "stdafx.h"
 
 #include "Counter.h"
-#include <vector>
 
 class LineCounter :
 	public Counter
